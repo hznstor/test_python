@@ -18,7 +18,7 @@ def bubble_sort(arr):
 
 # Пример использования
 if __name__ == "__main__":
-    data = [0, 7, 8, 3, 1, 7, 6, 5, 4, 9, 6, 8, 1]
+    data = [10, 7, 8, 3, 1, 7, 6, 5, 4, 9, 6, 8, 1]
     print("Исходный массив:", data)
     sorted_data = bubble_sort(data)
     print("Отсортированный массив:", sorted_data)
